@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Inter;
+}
+
+nav .container .content img , footer img{
+    width: 80px;
+}
+
+nav {
+    /* background-color: #1573D7; */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px; */
+}
+
+nav .container .content {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 28px;
+    height: 50px;
+    width: fit-content;
+    padding: 0px 20px;
+    background-color: #1573D7;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button  a{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1573D7;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#hero {
+    width: 100%;
+    height: 607px;
+    background-image: url('/images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hero .bg {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+    height: 100%;
+}
+
+#hero .container {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#hero .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+#kategori .container .konten {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#kategori .container .konten .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kategori .container .konten .head h3 {
+    font-size: 38px;
+}
+
+#kategori .container .konten .head a {
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #1573D7;
+}
+
+#kategori .container .konten .cards-kategori {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 40px;
+}
+
+#kategori .container .konten .cards-kategori .card-kategori {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 21px;
+
+}
+
+#kategori .container .konten .cards-kategori .card-kategori .icon-kategori {
+    width: 218px;
+    height: 218px;
+    background-color: #DCEDFE;
+    border-radius: 20px;
+    display: flex;
+}
+
+#kategori .container .konten .cards-kategori .card-kategori .icon-kategori img {
+    width: 110px;
+    margin: auto;
+}
+
+.card-kategori h6 {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#banner {
+    margin: 40px 0;
+}
+
+#banner .container .content {
+    background-color: #1573D7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* align-items: end; */
+    height: 100%;
+}
+
+
+#banner .container .content .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 61px;
+}
+
+#banner .container .content .title h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#banner .container .content .title button {
+    background-color: white;
+    color: #1573D7;
+}
+
+#banner .container .content .title button  a{
+    background-color: white;
+    color: #1573D7;
+}
+
+
+#banner .container .content .illustrasion {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+#banner .container .content .illustrasion img {
+    width: 100%;
+}
+
+#produk {
+    height: fit-content;
+
+    /* margin: 40px 0px; */
+}
+
+#produk .container .content .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#produk .container .content .head h3 {
+    font-size: 38px;
+}
+
+#produk .container .content .head a {
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #1573D7;
+}
+
+#produk .container .content .info-produk .kotak {
+    height: 23px;
+    border-radius: 20px;
+    background-color: #1573D7;
+    width: fit-content;
+    padding: 0 10px;
+    color: white;
+}
+
+.text-bold{
+    /*  */
+}
+#produk .container .content .info-produk h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#produk .container .content a{
+    text-decoration: none;
+    color: #404040;
+}
+
+#produk .container .content .info-produk h5 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#produk .container .content .info-produk h5 span {
+    font-size: 25px;
+    font-weight: 600;
+    color: #1573D7;
+}
+
+#produk .container .content img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.cards-produk {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+#produk .container .content .info-produk {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-produk {
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+    background-color: #1573D7;
+}
+
+.address{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+footer .container .content .sosmed a svg{
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+footer .container .content {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 46px;
+    margin-top: 40px;
+}
+
+#detail-produk .container .content .head{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+
+#detail-produk .container .content .head img{
+    width: 50%;
+    height: 50%;
+    aspect-ratio: 3/3;
+}
+
+#detail-produk .container .content .right .kotak{
+    width: fit-content;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #FFCD00;
+    color: white;
+}
+
+
+.desc{
+    margin-top: 50px;
+}
+
+#detail-produk .container .content .head h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#detail-produk .container .content .desc h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+#detail-produk .container .content .desc p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #404040;
+    text-indent: 40px;
+}
